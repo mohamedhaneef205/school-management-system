@@ -1,0 +1,18 @@
+.success-box {
+    text-align: center;
+}
+
+.success-box h1 {
+    color: green;
+    font-size: 70px;
+}
+
+.login-btn {
+    display: block;
+    background: #667eea;
+    color: white;
+    padding: 13px;
+    text-decoration: none;
+    border-radius: 7px;
+    margin-top: 20px;
+}

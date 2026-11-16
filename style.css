@@ -1,0 +1,106 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("sch.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.login-container {
+    width: 380px;
+    padding: 40px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.login-form h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #333;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    outline: none;
+    font-size: 14px;
+}
+
+.input-group input:focus {
+    border-color: #0d194d;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-bottom: 25px;
+}
+
+.options a {
+    color: #1d3ac0;
+    text-decoration: none;
+}
+
+button {
+    width: 100%;
+    padding: 13px;
+    background: #66b309;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #000000;
+}
+
+.register {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #000000;
+}
+
+.register a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+}

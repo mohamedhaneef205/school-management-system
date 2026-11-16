@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="login-container">
+
+    <form class="login-form" action="succ.html">
+
+        <h1>Admin Register</h1>
+        <p class="subtitle">Create your admin account</p>
+
+        <div class="input-group">
+            <label>Admin Name</label>
+            <input type="text" placeholder="Enter admin name" required>
+        </div>
+
+        <div class="input-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="Enter email" required>
+        </div>
+
+        <div class="input-group">
+            <label>Password</label>
+            <input type="password" id="password"
+                   placeholder="Enter password" required>
+        </div>
+
+        <div class="input-group">
+            <label>Confirm Password</label>
+            <input type="password" id="confirmPassword"
+                   placeholder="Confirm password" required>
+        </div>
+
+        <button type="submit">Register</button>
+
+        <p class="register">
+            Already have an account?
+            <a href="login.html">Login</a>
+        </p>
+
+    </form>
+
+</div>
+
+<script>
+document.querySelector("form").addEventListener("submit", function(event) {
+
+    let password = document.getElementById("password").value;
+    let confirmPassword = document.getElementById("confirmPassword").value;
+
+    if (password !== confirmPassword) {
+        event.preventDefault();
+        alert("Passwords do not match!");
+    }
+
+});
+</script>
+
+</body>
+</html>
