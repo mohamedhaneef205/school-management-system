@@ -1,0 +1,3 @@
+CREATE DATABASE IF NOT EXISTS school_management;
+
+SHOW DATABASES;
